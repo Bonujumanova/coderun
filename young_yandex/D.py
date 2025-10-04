@@ -18,8 +18,8 @@ def main():
             if total_exercis_by_one_theme > 0:
                 exercises.append(exercise)
                 count_exercises_by_themes[exercise] -= 1
-        print(*exercises[:k])
-        break
+    print(*exercises[:k])
+
 
 
 if __name__ == '__main__':
