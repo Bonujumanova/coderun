@@ -18,7 +18,7 @@ def main():
             if total_exercis_by_one_theme > 0:
                 exercises.append(exercise)
                 count_exercises_by_themes[exercise] -= 1
-    print(*exercises[:k])
+    print(" ".join(map(str, exercises[:k])))
 
 
 
